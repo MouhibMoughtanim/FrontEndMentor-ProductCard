@@ -114,6 +114,7 @@ button{
        height: 35vh;
     
     }
+
     .container-content{
         border-top-right-radius: 0;
         height: 35vh;
@@ -123,6 +124,7 @@ button{
     
     img{
         width: 100%;
+        height: 50vh;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
