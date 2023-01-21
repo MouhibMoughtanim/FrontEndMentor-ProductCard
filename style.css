@@ -100,3 +100,36 @@ button{
     text-decoration: line-through;
 
 }
+@media (max-width : 575px) {
+    .container{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 360px;   
+        border-radius: 1rem;
+        margin: 1rem;
+     
+    }
+    .container-image{
+       height: 35vh;
+    
+    }
+    .container-content{
+        border-top-right-radius: 0;
+        height: 35vh;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    
+    img{
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+        border-bottom-left-radius: 0;
+    
+    
+    }
+  
+    
+}
